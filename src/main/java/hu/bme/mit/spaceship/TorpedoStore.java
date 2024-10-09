@@ -16,6 +16,9 @@ public class TorpedoStore {
   private int torpedoCount = 0;
 
   public TorpedoStore(int numberOfTorpedos){
+    /*
+     *  I put this here so that it can be reused.
+     */
     this.torpedoCount = numberOfTorpedos;
 
     // update failure rate if it was specified in an environment variable
